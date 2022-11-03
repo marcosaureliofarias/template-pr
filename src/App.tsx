@@ -8,6 +8,7 @@ type Repository = {
 function App() {
   // criando estado
   const [extratos, setExtratos] = useState<Repository[]>([])
+  const [extratos2, setExtratos3] = useState<Repository[]>([])
 
   // consumindo dados aqui
   useEffect(() => {
