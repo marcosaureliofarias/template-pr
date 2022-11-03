@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 type Repository = {
   avatar: string
   name: string
+  payload: any
 }
 
 function App() {
